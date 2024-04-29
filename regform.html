@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Registration</title>
 </head>
 <body>
     <header>
@@ -43,21 +43,42 @@
            </div>
         </div>
     </header>
-    <main align="center" style="margin-top: 5%;">
+    <main style="margin-top: 100px; margin-left: 42%; margin-right: 35%;">
         <div>
-            <h2>Please Login to our Website!</h2>
+            <h2 align ="center">Registration Form!</h2>
         </div>
-        <div  style="box-shadow: 5px 5px 5px 5px rgb(208, 227, 241); margin-left: 32%; margin-right: 32%; margin-top: 2%; background-color: aliceblue; border-radius: 2%;">
-            <p style="padding-top: 20px;">Username or E-mail: <input  style="box-shadow: 1px 1px 1px 1px rgb(200, 234, 200); border-radius: 5px;border:1.5px solid rgb(191, 214, 156)" type="text" name="" id="" placeholder="Enter Username/E-mail"></p>
-            <p style="padding-left: 70px">Password: <input style= " box-shadow: 1px 1px 1px 1px rgb(200, 234, 200); border-radius: 5px;border:1.5px solid rgb(191, 214, 156)" type="password" name="" id="" placeholder="Enter Password"></p>
-            <button style="border-radius: 7px;border: none;height: 30px; width: 70px;font-weight: bold; background-color: rgb(204, 233, 176);">Login</button>
-            <p style="padding-bottom: 20px;">Don't have account? <a href="/regform.html">Sign_Up</a></p>
-            
-            
+        <div>
+            <form action="GET" style="box-shadow: 5px 5px 5px 5px rgb(206, 227, 242);background-color: aliceblue; padding: 10% 10% 10% 10%; font-size: medium; font-weight: 550; border-radius: 5px;">
+                <label for="">First Name:</label>
+                <input type="text" name="" id="" placeholder="Enter Your first name" style="border: 2px solid rgb(148, 226, 181); border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(200, 234, 200);"><br><br>
+                <label for="">Last Name:</label>
+                <input type="text" name="" id="" placeholder="Enter Your Last name"style="border: 2px solid rgb(148, 226, 181); border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(200, 234, 200);"><br><br>
+                <label for="">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <input type="text" name="" id="" placeholder="Enter Your E-mail" style="border: 2px solid rgb(148, 226, 181); border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(200, 234, 200);"><br><br>
+                <label for="">Password &nbsp :</label>
+                <input type="password" name="" id="" placeholder="Enter Your Password" style="border: 2px solid rgb(148, 226, 181); border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(200, 234, 200);"><br><br>
+                <label for="">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <input type="radio" name="" id="">Male
+                <input type="radio" name="" id="">Female
+                <input type="radio" name="" id="">Others <br><br>
+                <label for="">Division&nbsp;&nbsp;&nbsp;&nbsp :</label>
+                <select name="Division" id="" style="border: 2px solid rgb(148, 226, 181); border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(200, 234, 200);">
+                    <option value="1">Dhaka</option>
+                    <option value="2">Barishal</option>
+                    <option value="3">Khulna</option>
+                    <option value="4">Rajshahi</option>
+                    <option value="5">Sylet</option>
+                    <option value="6">Rangpur</option>
+                    <option value="7">Mymensingh</option>
+                    <option value="8">Chattogram</option>
+                </select> <br> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset" style="border: 2px solid rgb(236, 236, 203);; border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(236, 236, 203); background-color: rgb(236, 236, 203);">Reset Again</button>
+                <button type="submit" style="border: 2px solid rgb(148, 226, 181); border-radius: 5px; box-shadow: 1px 1px 1px 1px rgb(200, 234, 200); background-color: rgb(126, 236, 163);">Submit Now</button>
+            </form>
+
         </div>
 
     </main>
-
     
 </body>
 </html>
